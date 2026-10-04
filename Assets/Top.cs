@@ -50,7 +50,7 @@ public class Top : MonoBehaviour //top adında unity objeleri eklenebilen bir s�
         }
         
         //Debug.Log("otoparkta kalınan süre: " + kalinanSaat + "saat. ücret: " + ucret + "₺");
-        Debug.Log($"otoparkta kalınan süre: {kalinanSaat}. toplam ücret : {ucret}₺"); //çıktıda değişkenlerin bir arada kullanmanın modern yolu
+        Debug.Log($"otoparkta kalınan süre: {kalinanSaat} | ödenecek ücret : {ucret}₺"); //çıktıda değişkenlerin bir arada kullanmanın modern yolu
 
       /* Debug.Log("normal mesaj");
        * Debug.LogWarning("sarı dikkat mesaj");
