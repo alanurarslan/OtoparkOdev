@@ -29,7 +29,7 @@ public class Top : MonoBehaviour //top adında unity objeleri eklenebilen bir s�
                 break; // switch`in işi  biter alttakileri kontrol etmeden biter satır çalışırsa
              
             case 1:
-                ucret = 150;
+                ucret = 120;
                 break;
              
             case 2:
@@ -37,11 +37,15 @@ public class Top : MonoBehaviour //top adında unity objeleri eklenebilen bir s�
                 break;                                                  
               
             case 3:
-                ucret = 270;
+                ucret = 300;
+                break;
+
+            case 4:
+                ucret = 400;
                 break;
 
             default: // hiçbiri çalışmaz ise default çalışır
-                ucret = (kalinanSaat * 110) + 50;
+                ucret = 550;
                 break;
         }
         
